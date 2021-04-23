@@ -1,0 +1,25 @@
+{
+    "name": "SCDI_LIBS",
+    "keywords": "uart,ws2812",
+    "description": "Libraries by Dietmar Scheiblhofer",
+    "authors": [
+        {
+            "name": "Stefan Kaiser",
+            "maintainer": true
+        }
+    ],
+    "build": {
+        "flags": [
+            "libws2812.a"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kaiser18O3/SCDI_LIBS.git"
+    },
+    "version": "0.0.1",
+    "frameworks": "simba",
+    "platforms": [
+        "atmelavr"
+    ]
+}
