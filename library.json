@@ -17,7 +17,7 @@
         "type": "git",
         "url": "https://github.com/Kaiser18O3/SCDI_LIBS.git"
     },
-    "version": "0.0.1",
+    "version": "0.2.0",
     "frameworks": "simba",
     "platforms": [
         "atmelavr"
