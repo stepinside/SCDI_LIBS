@@ -1,23 +1,28 @@
 {
     "name": "SCDI_LIBS",
-    "keywords": "uart,ws2812",
+    "keywords": "uart, ws2812, adc, eeprom",
     "description": "Libraries by Dietmar Scheiblhofer",
     "authors": [
         {
             "name": "Stefan Kaiser",
             "maintainer": true
+        },
+        {
+            "name": "Dietmar Scheiblhofer",
+            "email": "Dietmar.Scheiblhofer@htlpinkafeld.at"
         }
     ],
     "build": {
         "flags": [
-            "libws2812.a"
+            "-L lib",
+            "-lws2812"
         ]
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/Kaiser18O3/SCDI_LIBS.git"
     },
-    "version": "0.2.0",
+    "version": "0.3.0",
     "frameworks": "simba",
     "platforms": [
         "atmelavr"
